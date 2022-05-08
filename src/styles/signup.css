@@ -1,0 +1,46 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.subSub,
+.subCancel {
+    width: 70%;
+    height: 20%;
+    padding: 2%;
+    margin-left: 45%;
+    margin-top: 10%;
+    border-radius: 20px;
+    font-size: 100%;
+    color: silver;
+    background: linear-gradient(
+        to right,
+        darkgray,
+        black,
+        darkgray
+    );
+}
+
+#uname, #discId, #pw, #pwc, #email {
+    height: 10%;
+    margin-top: 1%;
+    width: 50%;
+    border-radius: 20px;
+}

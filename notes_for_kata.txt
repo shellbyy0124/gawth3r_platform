@@ -1,0 +1,4 @@
+1) Logic for saving user input on Sign Up page to database
+2) Place items into carousel on home.js page 
+3) Logic for obtaining/checking user input on Sign In Page 
+4) Re-Write any css files that is not the App.css into styled-components.
